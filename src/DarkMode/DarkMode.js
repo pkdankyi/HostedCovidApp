@@ -4,6 +4,7 @@ import { ThemeProvider, createMuiTheme } from '@material-ui/core/styles'
 
 import App from '../App.js'
 
+import styles from './DarkMode.module.css'
 
 function DarkMode(){
     const [ darkMode, setDarkMode ] = useState(false)
@@ -19,15 +20,18 @@ function DarkMode(){
     // }
 
     return(
-        <ThemeProvider theme={theme}>
-            <Paper styles={{ height: "100%" }}>
-                <Grid container direction="column">
-                    <Typography variant='h1'>DarkMode</Typography>
-                    <Switch checked={darkMode} onChange={() => setDarkMode(!darkMode)}>Dark Mode</Switch>
-                    <App />
-                </Grid>
-            </Paper>
-        </ThemeProvider>
+        <div className={styles.container}>
+            <ThemeProvider theme={theme}>
+                <Paper styles={{ height: "100%" }}>
+                    <Grid container direction="column">
+                        <Typography variant='h5'>EMBEDDED EDITION</Typography>
+                        <Switch checked={darkMode} onChange={() => setDarkMode(!darkMode)}>Dark Mode</Switch>
+                        <Typography variant='h8'>DarkMode</Typography>
+                        <App />
+                    </Grid>
+                </Paper>
+            </ThemeProvider>
+        </div>
     )
 }
 

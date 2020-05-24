@@ -1,5 +1,6 @@
 .container {
-    margin: 50px 0
+    margin: 10px 0;
+    flex-wrap: nowrap 
 }
 
 .card {
@@ -16,6 +17,10 @@
 
 .deaths {
     border-bottom: 10px solid rgba(255, 0, 0, 0.5);
+}
+
+.active {
+    border-bottom: 10px solid rgba(253, 236, 0, 0.5)
 }
 
 @media (max-width: 770px) {
