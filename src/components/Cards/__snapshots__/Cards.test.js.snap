@@ -1,0 +1,131 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders 1`] = `
+<DocumentFragment>
+  <div
+    class="container"
+    data-testid="cards"
+  >
+    <div
+      class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-3 MuiGrid-justify-xs-center"
+    >
+      <div
+        class="MuiPaper-root MuiCard-root MuiGrid-root card infected MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-2 MuiPaper-elevation1 MuiPaper-rounded"
+      >
+        <div
+          class="MuiCardContent-root"
+        >
+          <p
+            class="MuiTypography-root MuiTypography-body1 MuiTypography-colorTextSecondary MuiTypography-gutterBottom"
+            data-testid="typo_infected"
+          >
+            Infected
+          </p>
+          <h5
+            class="MuiTypography-root MuiTypography-h5"
+          >
+            <span />
+          </h5>
+          <p
+            class="MuiTypography-root MuiTypography-body1 MuiTypography-colorTextSecondary"
+          >
+             Invalid Date 
+          </p>
+          <p
+            class="MuiTypography-root MuiTypography-body2"
+          >
+            Number of confirmed cases of COVID-19
+          </p>
+        </div>
+      </div>
+      <div
+        class="MuiPaper-root MuiCard-root MuiGrid-root card recovered MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-2 MuiPaper-elevation1 MuiPaper-rounded"
+      >
+        <div
+          class="MuiCardContent-root"
+        >
+          <p
+            class="MuiTypography-root MuiTypography-body1 MuiTypography-colorTextSecondary MuiTypography-gutterBottom"
+            data-testid="typo_recovered"
+          >
+            Recovered
+          </p>
+          <h5
+            class="MuiTypography-root MuiTypography-h5"
+          >
+            <span />
+          </h5>
+          <p
+            class="MuiTypography-root MuiTypography-body1 MuiTypography-colorTextSecondary"
+          >
+             Invalid Date 
+          </p>
+          <p
+            class="MuiTypography-root MuiTypography-body2"
+          >
+            Number of recoveries from COVID-19
+          </p>
+        </div>
+      </div>
+      <div
+        class="MuiPaper-root MuiCard-root MuiGrid-root card deaths MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-2 MuiPaper-elevation1 MuiPaper-rounded"
+      >
+        <div
+          class="MuiCardContent-root"
+        >
+          <p
+            class="MuiTypography-root MuiTypography-body1 MuiTypography-colorTextSecondary MuiTypography-gutterBottom"
+            data-testid="typo_deaths"
+          >
+            Deaths
+          </p>
+          <h5
+            class="MuiTypography-root MuiTypography-h5"
+          >
+            <span />
+          </h5>
+          <p
+            class="MuiTypography-root MuiTypography-body1 MuiTypography-colorTextSecondary"
+          >
+             Invalid Date 
+          </p>
+          <p
+            class="MuiTypography-root MuiTypography-body2"
+          >
+            Number of deaths caused by COVID-19
+          </p>
+        </div>
+      </div>
+      <div
+        class="MuiPaper-root MuiCard-root MuiGrid-root card active MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-2 MuiPaper-elevation1 MuiPaper-rounded"
+      >
+        <div
+          class="MuiCardContent-root"
+        >
+          <p
+            class="MuiTypography-root MuiTypography-body1 MuiTypography-colorTextSecondary MuiTypography-gutterBottom"
+            data-testid="typo_active"
+          >
+            Active
+          </p>
+          <h5
+            class="MuiTypography-root MuiTypography-h5"
+          >
+            <span />
+          </h5>
+          <p
+            class="MuiTypography-root MuiTypography-body1 MuiTypography-colorTextSecondary"
+          >
+             Invalid Date 
+          </p>
+          <p
+            class="MuiTypography-root MuiTypography-body2"
+          >
+            Number of existing cases of COVID-19
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

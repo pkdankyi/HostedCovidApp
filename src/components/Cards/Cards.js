@@ -15,11 +15,11 @@ const Cards = ({ data: { confirmed, recovered, deaths, lastUpdate }}) => {
     let existingCases = confirmed.value - recovered.value - deaths.value
 
     return (
-        <div className={styles.container}>
+        <div data-testid='cards' className={styles.container}>
             <Grid container spacing={3} justify="center">
                 <Grid item component={Card} xs={12} md={2} className={cx(styles.card, styles.infected)}>
                     <CardContent>
-                        <Typography color="textSecondary" gutterBottom>Infected</Typography>
+                        <Typography data-testid='typo_infected' color="textSecondary" gutterBottom>Infected</Typography>
                         <Typography variant="h5">
                             <CountUp 
                                 start={0}
@@ -34,7 +34,7 @@ const Cards = ({ data: { confirmed, recovered, deaths, lastUpdate }}) => {
                 </Grid>
                 <Grid item component={Card} xs={12} md={2}className={cx(styles.card, styles.recovered)}>
                     <CardContent>
-                        <Typography color="textSecondary" gutterBottom>Recovered</Typography>
+                        <Typography data-testid='typo_recovered' color="textSecondary" gutterBottom>Recovered</Typography>
                         <Typography variant="h5">
                             <CountUp 
                                 start={0}
@@ -49,7 +49,7 @@ const Cards = ({ data: { confirmed, recovered, deaths, lastUpdate }}) => {
                 </Grid>
                 <Grid item component={Card} xs={12} md={2} className={cx(styles.card, styles.deaths)}>
                     <CardContent>
-                        <Typography color="textSecondary" gutterBottom>Deaths</Typography>
+                        <Typography data-testid='typo_deaths' color="textSecondary" gutterBottom>Deaths</Typography>
                         <Typography variant="h5">
                             <CountUp 
                                 start={0}
@@ -64,7 +64,7 @@ const Cards = ({ data: { confirmed, recovered, deaths, lastUpdate }}) => {
                 </Grid>
                 <Grid item component={Card} xs={12} md={2} className={cx(styles.card, styles.active)}>
                     <CardContent>
-                        <Typography color="textSecondary" gutterBottom>Active</Typography>
+                        <Typography data-testid='typo_active' color="textSecondary" gutterBottom>Active</Typography>
                         <Typography variant="h5">
                             <CountUp 
                                 start={0}
