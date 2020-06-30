@@ -24,7 +24,7 @@ function DarkMode(){
             <ThemeProvider theme={theme}>
                 <Paper styles={{ height: "100%" }}>
                     <Grid container direction="column">
-                        <Typography variant='h5'>EMBEDDED EDITION</Typography>
+                        {/* <Typography variant='h5'>EMBEDDED EDITION</Typography> */}
                         <Switch checked={darkMode} onChange={() => setDarkMode(!darkMode)}>Dark Mode</Switch>
                         <Typography variant='h8'>DarkMode</Typography>
                         <App />

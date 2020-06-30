@@ -1,10 +1,11 @@
 .container {
     margin: 10px 0;
-    flex-wrap: nowrap 
+    flex-wrap: nowrap ;
 }
 
 .card {
     margin: 0 2% !important;
+    border: 1px solid black;
 }
 
 .infected {
